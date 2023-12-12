@@ -12,7 +12,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
-          uses: actions/checkout@4.1.1
+          uses: actions/checkout@v2
     
         - name: Login do Docker
           uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d
